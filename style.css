@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(netflixbackground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+.containor{
+    margin-top: 150px;
+   margin-left: 490px;
+    color: white;
+
+}
+#netfliximg{
+    width: 200px;
+    margin-top: 5px;;
+    margin-left: 150px;
+}
+#mainhedding{
+    font-size: 45px;
+}
+#paragraph{
+    font-size: 20px;
+}
+#signinbutton , #registerbutton{
+    width:190x;
+    height: 30px;
+    background-color: red;
+    border:none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#email::placeholder{
+color: white;
+}
+.button{
+position: fixed;
+top: 25px;
+left:1500px
+}
+.submit{
+    margin-left: 600px;
+
+}
+#email{
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    padding-left: 5px;
+    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white
+   
+}
+#getemail{
+    width: 140px;
+    height: 55px;
+    border-radius: 8px;
+    opacity: 0.8;
+    background-color: red;
+    color: white;
+    font-style:
+}
+
+#email::placeholder {
+    color: white;
+    opacity: 1
+}
